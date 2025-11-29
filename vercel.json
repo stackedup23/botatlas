@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/bingo/(.*)",
+      "dest": "/bots/bingo/$1"
+    },
+    {
+      "src": "/lira/(.*)",
+      "dest": "/bots/lira/$1"
+    },
+    {
+      "src": "/mia/(.*)",
+      "dest": "/bots/mia/$1"
+    },
+    {
+      "src": "/lockdown/(.*)",
+      "dest": "/bots/lockdown/$1"
+    },
+    {
+      "src": "/reaper/(.*)",
+      "dest": "/bots/reaper/$1"
+    }
+  ]
+}
