@@ -1,25 +1,19 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/bingo/(.*)",
-      "dest": "/bots/bingo/$1"
-    },
-    {
-      "src": "/lira/(.*)",
-      "dest": "/bots/lira/$1"
-    },
-    {
-      "src": "/mia/(.*)",
-      "dest": "/bots/mia/$1"
-    },
-    {
-      "src": "/lockdown/(.*)",
-      "dest": "/bots/lockdown/$1"
-    },
-    {
-      "src": "/reaper/(.*)",
-      "dest": "/bots/reaper/$1"
-    }
+  "rewrites": [
+    { "source": "/bingo", "destination": "/bots/bingo/index.html" },
+    { "source": "/bingo/(.*)", "destination": "/bots/bingo/$1" },
+
+    { "source": "/lira", "destination": "/bots/lira/index.html" },
+    { "source": "/lira/(.*)", "destination": "/bots/lira/$1" },
+
+    { "source": "/mia", "destination": "/bots/mia/index.html" },
+    { "source": "/mia/(.*)", "destination": "/bots/mia/$1" },
+
+    { "source": "/lockdown", "destination": "/bots/lockdown/index.html" },
+    { "source": "/lockdown/(.*)", "destination": "/bots/lockdown/$1" },
+
+    { "source": "/reaper", "destination": "/bots/reaper/index.html" },
+    { "source": "/reaper/(.*)", "destination": "/bots/reaper/$1" }
   ]
 }
