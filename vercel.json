@@ -1,19 +1,49 @@
 {
   "version": 2,
-  "rewrites": [
-    { "source": "/bingo", "destination": "/bots/bingo/index.html" },
-    { "source": "/bingo/(.*)", "destination": "/bots/bingo/$1" },
+  "routes": [
+    {
+      "src": "/bingo",
+      "dest": "/output/bingo/wwwroot/index.html"
+    },
+    {
+      "src": "/bingo/(.*)",
+      "dest": "/output/bingo/wwwroot/$1"
+    },
 
-    { "source": "/lira", "destination": "/bots/lira/index.html" },
-    { "source": "/lira/(.*)", "destination": "/bots/lira/$1" },
+    {
+      "src": "/lira",
+      "dest": "/output/lira/wwwroot/index.html"
+    },
+    {
+      "src": "/lira/(.*)",
+      "dest": "/output/lira/wwwroot/$1"
+    },
 
-    { "source": "/mia", "destination": "/bots/mia/index.html" },
-    { "source": "/mia/(.*)", "destination": "/bots/mia/$1" },
+    {
+      "src": "/mia",
+      "dest": "/output/mia/wwwroot/index.html"
+    },
+    {
+      "src": "/mia/(.*)",
+      "dest": "/output/mia/wwwroot/$1"
+    },
 
-    { "source": "/lockdown", "destination": "/bots/lockdown/index.html" },
-    { "source": "/lockdown/(.*)", "destination": "/bots/lockdown/$1" },
+    {
+      "src": "/lockdown",
+      "dest": "/output/lockdown/wwwroot/index.html"
+    },
+    {
+      "src": "/lockdown/(.*)",
+      "dest": "/output/lockdown/wwwroot/$1"
+    },
 
-    { "source": "/reaper", "destination": "/bots/reaper/index.html" },
-    { "source": "/reaper/(.*)", "destination": "/bots/reaper/$1" }
+    {
+      "src": "/reaper",
+      "dest": "/output/reaper/wwwroot/index.html"
+    },
+    {
+      "src": "/reaper/(.*)",
+      "dest": "/output/reaper/wwwroot/$1"
+    }
   ]
 }
