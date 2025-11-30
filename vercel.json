@@ -1,32 +1,47 @@
 {
-  "version": 2,
+  "version": 3,
   "routes": [
     {
-      "src": "^/bingo(/.*)?$",
-      "dest": "/bingo/index.html"
+      "src": "/bingo/(.*)",
+      "dest": "/output/bingo/wwwroot/$1"
     },
     {
-      "src": "^/lira(/.*)?$",
-      "dest": "/lira/index.html"
+      "src": "/lira/(.*)",
+      "dest": "/output/lira/wwwroot/$1"
     },
     {
-      "src": "^/mia(/.*)?$",
-      "dest": "/mia/index.html"
+      "src": "/mia/(.*)",
+      "dest": "/output/mia/wwwroot/$1"
     },
     {
-      "src": "^/lockdown(/.*)?$",
-      "dest": "/lockdown/index.html"
+      "src": "/lockdown/(.*)",
+      "dest": "/output/lockdown/wwwroot/$1"
     },
     {
-      "src": "^/reaper(/.*)?$",
-      "dest": "/reaper/index.html"
+      "src": "/reaper/(.*)",
+      "dest": "/output/reaper/wwwroot/$1"
+    },
+
+    /* Fallback for index.html inside each bot */
+    {
+      "src": "/bingo",
+      "dest": "/output/bingo/wwwroot/index.html"
+    },
+    {
+      "src": "/lira",
+      "dest": "/output/lira/wwwroot/index.html"
+    },
+    {
+      "src": "/mia",
+      "dest": "/output/mia/wwwroot/index.html"
+    },
+    {
+      "src": "/lockdown",
+      "dest": "/output/lockdown/wwwroot/index.html"
+    },
+    {
+      "src": "/reaper",
+      "dest": "/output/reaper/wwwroot/index.html"
     }
-  ],
-  "static": {
-    "bingo": "output/bingo/wwwroot",
-    "lira": "output/lira/wwwroot",
-    "mia": "output/mia/wwwroot",
-    "lockdown": "output/lockdown/wwwroot",
-    "reaper": "output/reaper/wwwroot"
-  }
+  ]
 }
