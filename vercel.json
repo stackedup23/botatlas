@@ -1,49 +1,47 @@
 {
   "version": 2,
+  "builds": [
+    {
+      "src": "output/bingo/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "output/lira/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "output/mia/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "output/lockdown/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "output/reaper/**",
+      "use": "@vercel/static"
+    }
+  ],
   "routes": [
     {
-      "src": "/bingo",
+      "src": "^/bingo(/.*)?$",
       "dest": "/output/bingo/wwwroot/index.html"
     },
     {
-      "src": "/bingo/(.*)",
-      "dest": "/output/bingo/wwwroot/$1"
-    },
-
-    {
-      "src": "/lira",
+      "src": "^/lira(/.*)?$",
       "dest": "/output/lira/wwwroot/index.html"
     },
     {
-      "src": "/lira/(.*)",
-      "dest": "/output/lira/wwwroot/$1"
-    },
-
-    {
-      "src": "/mia",
+      "src": "^/mia(/.*)?$",
       "dest": "/output/mia/wwwroot/index.html"
     },
     {
-      "src": "/mia/(.*)",
-      "dest": "/output/mia/wwwroot/$1"
-    },
-
-    {
-      "src": "/lockdown",
+      "src": "^/lockdown(/.*)?$",
       "dest": "/output/lockdown/wwwroot/index.html"
     },
     {
-      "src": "/lockdown/(.*)",
-      "dest": "/output/lockdown/wwwroot/$1"
-    },
-
-    {
-      "src": "/reaper",
+      "src": "^/reaper(/.*)?$",
       "dest": "/output/reaper/wwwroot/index.html"
-    },
-    {
-      "src": "/reaper/(.*)",
-      "dest": "/output/reaper/wwwroot/$1"
     }
   ]
 }
