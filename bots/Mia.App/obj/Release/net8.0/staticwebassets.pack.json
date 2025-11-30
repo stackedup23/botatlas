@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/bin/Release/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/obj/Release/net8.0/compressed/3vpvnev2lt.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/obj/Release/net8.0/scopedcss/bundle/Mia.App.styles.css",
+      "PackagePath": "staticwebassets/Mia.App.styles.css"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/obj/Release/net8.0/service-worker-assets.js",
+      "PackagePath": "staticwebassets/service-worker-assets.js"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/obj/Release/net8.0/service-worker/service-worker.published.js",
+      "PackagePath": "staticwebassets/service-worker.js"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/wwwroot/icon-512.png",
+      "PackagePath": "staticwebassets/icon-512.png"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/wwwroot/manifest.webmanifest",
+      "PackagePath": "staticwebassets/manifest.webmanifest"
+    },
+    {
+      "Id": "/home/felix/botatlas/bots/Mia.App/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.Mia.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.Mia.App.props",
+      "PackagePath": "build\\Mia.App.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.Mia.App.props",
+      "PackagePath": "buildMultiTargeting\\Mia.App.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.Mia.App.props",
+      "PackagePath": "buildTransitive\\Mia.App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

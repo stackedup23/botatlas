@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bots", "bots", "{872B928C-A957-4790-9C33-803574EA29EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bingo.App", "bots\bingo\Bingo.App.csproj", "{6A195B12-E38F-47A4-8BF0-80D43B021F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lira.App", "bots\lira\Lira.App.csproj", "{A5914F82-E740-4FC0-9454-DE646E2F3F0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mia.App", "bots\mia\Mia.App.csproj", "{54300868-3B8B-4487-8A73-3B2E89866B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lockdown.App", "bots\lockdown\Lockdown.App.csproj", "{DBA9636C-0C19-4067-BCDE-3BAD5E40769E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reaper.App", "bots\reaper\Reaper.App.csproj", "{E502863E-1945-4352-A329-41CBCED66971}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A195B12-E38F-47A4-8BF0-80D43B021F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A195B12-E38F-47A4-8BF0-80D43B021F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A195B12-E38F-47A4-8BF0-80D43B021F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A195B12-E38F-47A4-8BF0-80D43B021F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5914F82-E740-4FC0-9454-DE646E2F3F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5914F82-E740-4FC0-9454-DE646E2F3F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5914F82-E740-4FC0-9454-DE646E2F3F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5914F82-E740-4FC0-9454-DE646E2F3F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54300868-3B8B-4487-8A73-3B2E89866B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54300868-3B8B-4487-8A73-3B2E89866B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54300868-3B8B-4487-8A73-3B2E89866B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54300868-3B8B-4487-8A73-3B2E89866B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA9636C-0C19-4067-BCDE-3BAD5E40769E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA9636C-0C19-4067-BCDE-3BAD5E40769E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA9636C-0C19-4067-BCDE-3BAD5E40769E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA9636C-0C19-4067-BCDE-3BAD5E40769E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E502863E-1945-4352-A329-41CBCED66971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E502863E-1945-4352-A329-41CBCED66971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E502863E-1945-4352-A329-41CBCED66971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E502863E-1945-4352-A329-41CBCED66971}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A195B12-E38F-47A4-8BF0-80D43B021F89} = {872B928C-A957-4790-9C33-803574EA29EE}
+		{A5914F82-E740-4FC0-9454-DE646E2F3F0B} = {872B928C-A957-4790-9C33-803574EA29EE}
+		{54300868-3B8B-4487-8A73-3B2E89866B16} = {872B928C-A957-4790-9C33-803574EA29EE}
+		{DBA9636C-0C19-4067-BCDE-3BAD5E40769E} = {872B928C-A957-4790-9C33-803574EA29EE}
+		{E502863E-1945-4352-A329-41CBCED66971} = {872B928C-A957-4790-9C33-803574EA29EE}
+	EndGlobalSection
+EndGlobal
