@@ -1,13 +1,12 @@
 {
-  "version": 2,
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "headers": [
+  "version": 3,
+  "framework": null,
+  "routes": [
     {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000" }
-      ]
+      "src": "^/lockdown(/.*)?$",
+      "dest": "/lockdown/index.html"
     }
-  ]
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
 }
