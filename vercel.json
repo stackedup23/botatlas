@@ -22,26 +22,63 @@
       "dest": "/output/reaper/wwwroot/$1"
     },
 
-    /* Fallback for index.html inside each bot */
+    /* Direct bot landing pages */
     {
-      "src": "/bingo",
+      "src": "^/bingo$",
       "dest": "/output/bingo/wwwroot/index.html"
     },
     {
-      "src": "/lira",
+      "src": "^/lira$",
       "dest": "/output/lira/wwwroot/index.html"
     },
     {
-      "src": "/mia",
+      "src": "^/mia$",
       "dest": "/output/mia/wwwroot/index.html"
     },
     {
-      "src": "/lockdown",
+      "src": "^/lockdown$",
       "dest": "/output/lockdown/wwwroot/index.html"
     },
     {
-      "src": "/reaper",
+      "src": "^/reaper$",
       "dest": "/output/reaper/wwwroot/index.html"
+    },
+
+    /* Catch-all for Blazor WASM deep links */
+    {
+      "src": "/lockdown/(.*)",
+      "dest": "/output/lockdown/wwwroot/index.html"
+    },
+    {
+      "src": "/bingo/(.*)",
+      "dest": "/output/bingo/wwwroot/index.html"
+    },
+    {
+      "src": "/mia/(.*)",
+      "dest": "/output/mia/wwwroot/index.html"
+    },
+    {
+      "src": "/lira/(.*)",
+      "dest": "/output/lira/wwwroot/index.html"
+    },
+    {
+      "src": "/reaper/(.*)",
+      "dest": "/output/reaper/wwwroot/index.html"
+    }
+  ],
+
+  "headers": [
+    {
+      "source": "/(.*)\\.dll",
+      "headers": [{ "key": "Content-Type", "value": "application/octet-stream" }]
+    },
+    {
+      "source": "/(.*)\\.wasm",
+      "headers": [{ "key": "Content-Type", "value": "application/wasm" }]
+    },
+    {
+      "source": "/(.*)\\.json",
+      "headers": [{ "key": "Content-Type", "value": "application/json" }]
     }
   ]
 }
