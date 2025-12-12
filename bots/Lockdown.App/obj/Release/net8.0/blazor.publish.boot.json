@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Lockdown.App",
   "resources": {
-    "hash": "sha256-aANtv9sQ/R/5SlLlURQBFaSR5QcYHfeBHQc4vDxPl4w=",
+    "hash": "sha256-irIZuPN7V+mG6pFeBIcKcFsuATfA6Bp46YBNvge5JpY=",
     "jsModuleNative": {
       "dotnet.native.8.0.22.c3xo535nye.js": "sha256-9CAAip2ZPHshJIYLCt0fBPnVC0rqC0ZaqfByiKObRQ0="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "Lockdown.App.wasm": "sha256-eDmmGPQCMRUSKbqFefhd7aFSTSVmCxtKdz69D4ff5Rg=",
+      "Lockdown.App.wasm": "sha256-/Pfwcmx05vqRgiOWdZK1kJ+sVMpZeg4/AQwwzrrtySA=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-Pthwk3KnhFBR8gThPy72zZ4rEEe6lsextpunnQbL2t8=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-LO49jMRJF7DOR6EiW9OZ3tSIXi5qoErDkcBAJ5huNwU=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-wRGqyidP6L/9RRamz5L5zbntVMk9ukPlyFT3ZVBjpig=",

@@ -809,19 +809,27 @@
       "url": "_framework\/System.Private.CoreLib.wasm"
     },
     {
-      "hash": "sha256-t6MIg\/H8TR8b0Ph4sa9zNbaP\/\/7O4QW5dU60rtK\/80k=",
+      "hash": "sha256-shrivv+AA9mejPe5Z3aXpzf6r0C+U+vlsY87ADEM23w=",
       "url": "_framework\/dotnet.js"
     },
     {
-      "hash": "sha256-F7Y5eAa+U4kkNMW0u6Qo4sp9JuwcL0fZXIMzgi\/54x4=",
+      "hash": "sha256-NvEM9Egf17S0JrYweOXHytgI\/uJLUuuR5wDL9ap9xQ8=",
       "url": "_framework\/dotnet.js.map"
     },
     {
-      "hash": "sha256-mICh\/Z0HwmHNDnkBnBbRTyDkRYBu3OBkhmuy2F7aUSU=",
+      "hash": "sha256-vtotCeXt2UD6oc459laJT32vBgigZ+eLoUmdeFkvYDk=",
+      "url": "_framework\/dotnet.native.8.0.22.gmwn0wlls2.js"
+    },
+    {
+      "hash": "sha256-I9mo79uNpf37\/J\/jYCGkW9F0w+mgb+ezeNdHNbQNvf0=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
-      "hash": "sha256-cSt6BoD3oAqHUXj86Jz1\/IqRHdwCEisDpiIRp99iAAo=",
+      "hash": "sha256-6bV\/iAemowb59rmItegP8VsxwWpWUNyMb0Q76Fvvsjo=",
+      "url": "_framework\/dotnet.runtime.8.0.22.q8i8mpn2ul.js"
+    },
+    {
+      "hash": "sha256-vilENRG5PLayjRLv4dqJ4cLwF9oJ89LuVkgJdiZvZGo=",
       "url": "_framework\/dotnet.runtime.js.map"
     },
     {
@@ -837,25 +845,17 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-ubOXpXwHkCHndzC1NJhMbR\/35m4B\/5dlvl3PlVVt1is=",
+      "hash": "sha256-\/Pfwcmx05vqRgiOWdZK1kJ+sVMpZeg4\/AQwwzrrtySA=",
       "url": "_framework\/Lockdown.App.wasm"
     },
     {
-      "hash": "sha256-HtPjvjrObgX6QJMW10xinT3xQdS8HezAXdmPwV9XtL8=",
+      "hash": "sha256-PGBXgbRHLQStm1V+1z0lRNuCZmXIiBdggjImPVih6Sw=",
       "url": "_framework\/Lockdown.App.pdb"
     },
     {
-      "hash": "sha256-E+uHRfSQosZJzQ4fscKBGwX+rGYt5zWGTdzbSF5FO5Q=",
+      "hash": "sha256-\/hE6XXGT6KIBd91+WJYPikmFVvPlPbKoSh7A9maAF8I=",
       "url": "_framework\/blazor.boot.json"
-    },
-    {
-      "hash": "sha256-vtotCeXt2UD6oc459laJT32vBgigZ+eLoUmdeFkvYDk=",
-      "url": "_framework\/dotnet.native.8.0.22.gmwn0wlls2.js"
-    },
-    {
-      "hash": "sha256-6bV\/iAemowb59rmItegP8VsxwWpWUNyMb0Q76Fvvsjo=",
-      "url": "_framework\/dotnet.runtime.8.0.22.q8i8mpn2ul.js"
     }
   ],
-  "version": "eSC2+JAq"
+  "version": "JxXmWMHg"
 };

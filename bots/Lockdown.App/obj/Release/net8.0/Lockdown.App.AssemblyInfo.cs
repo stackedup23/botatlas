@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lockdown.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1cd1e95d8420db9c90099169e3fe6c03cbe88e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecbcf3a15c7d98388b18089cce997c4742f0e215")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lockdown.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lockdown.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
