@@ -1,12 +1,13 @@
 {
-  "version": 3,
-  "framework": null,
+  "version": 2,
   "routes": [
     {
-      "src": "^/lockdown(/.*)?$",
+      "src": "/lockdown",
+      "dest": "/lockdown/index.html"
+    },
+    {
+      "src": "/lockdown/(.*)",
       "dest": "/lockdown/index.html"
     }
-  ],
-  "cleanUrls": true,
-  "trailingSlash": false
+  ]
 }
