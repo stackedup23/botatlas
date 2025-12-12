@@ -1,35 +1,12 @@
 {
-  "version": 3,
-  "routes": [
-    { "src": "^/bingo$", "dest": "/output/bingo/wwwroot/index.html" },
-    { "src": "^/lira$", "dest": "/output/lira/wwwroot/index.html" },
-    { "src": "^/mia$", "dest": "/output/mia/wwwroot/index.html" },
-    { "src": "^/lockdown$", "dest": "/output/lockdown/wwwroot/index.html" },
-    { "src": "^/reaper$", "dest": "/output/reaper/wwwroot/index.html" },
-
-    { "src": "/bingo/(.*)", "dest": "/output/bingo/wwwroot/$1" },
-    { "src": "/lira/(.*)", "dest": "/output/lira/wwwroot/$1" },
-    { "src": "/mia/(.*)", "dest": "/output/mia/wwwroot/$1" },
-    { "src": "/lockdown/(.*)", "dest": "/output/lockdown/wwwroot/$1" },
-    { "src": "/reaper/(.*)", "dest": "/output/reaper/wwwroot/$1" }
-  ],
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
-      "source": "/(.*)\\.dll",
+      "source": "/(.*)",
       "headers": [
-        { "key": "Content-Type", "value": "application/octet-stream" }
-      ]
-    },
-    {
-      "source": "/(.*)\\.wasm",
-      "headers": [
-        { "key": "Content-Type", "value": "application/wasm" }
-      ]
-    },
-    {
-      "source": "/(.*)\\.json",
-      "headers": [
-        { "key": "Content-Type", "value": "application/json" }
+        { "key": "Cache-Control", "value": "public, max-age=31536000" }
       ]
     }
   ]
